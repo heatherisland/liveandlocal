@@ -8,8 +8,9 @@
   },
   "scripts": {
     "open-app": "gulp open-app",
-    "start": "npm run open-app",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server",
     "watch": "gulp-watch"
   },
   "repository": {
@@ -41,9 +42,10 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "^0.4.0",
     "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-open": "^3.0.1",
+    "lite-server": "^2.6.1",
     "sass": "^1.49.9"
   },
   "homepage": "http://creative-tim.com/product/soft-ui-design-system"
